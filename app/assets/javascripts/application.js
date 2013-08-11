@@ -9,10 +9,15 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
-//= require angular
-//= require angular-ui-router
-//= require jquery
-//= require jquery_ujs
+
+// Angular
+//= require angular/angular
+//= require angular/angular-ui-router
+
+// jQuery (disabled)
+// \\= require jquery
+// \\= require jquery_ujs
+
 //= require turbolinks
 
 

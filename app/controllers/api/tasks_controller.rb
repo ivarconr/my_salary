@@ -16,6 +16,6 @@ class Api::TasksController < Api::BaseController
   end
  
   def destroy
-    respond_with :api, Task.destroy(params[:id].permit(:title, :description))
+    respond_with :api, Task.destroy(params[:id])
   end
 end
