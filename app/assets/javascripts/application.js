@@ -12,6 +12,7 @@
 
 // Angular
 //= require angular/angular
+//= require angular/angular-resource
 //= require angular/angular-ui-router
 
 // jQuery (disabled)

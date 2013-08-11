@@ -1,1 +1,1 @@
-@app = angular.module("my_salary", ["ui.compat"])
+@app = angular.module("my_salary", ["ngResource", "ui.compat"])
