@@ -1,0 +1,1 @@
+@app = angular.module("my_salary", ["ui.compat"])
